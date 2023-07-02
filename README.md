@@ -6,3 +6,4 @@ Predicting price of house using regularised linear regression
 2. upload the csv file to Google colab 
 
 3. run all cells
+###### graph of error vs lambda in gradient descent
