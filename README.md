@@ -24,9 +24,9 @@ Libraries: NumPy, Pandas,  Matplotlib
 Development Environment: Jupyter Notebook 
 
 
-## graph of error vs lambda in gradient descent
+### Graph of error vs lambda in gradient descent
 ![download](https://github.com/Srijita2002/House_Price_Prediction/assets/111299389/ba9fd414-1452-43ce-ade6-cc042f75bca0)
 
 
-## graph of error vs lambda in Normal equation
+### Graph of error vs lambda in Normal equation
 ![download](https://github.com/Srijita2002/House_Price_Prediction/assets/111299389/9bddf928-742d-4b20-b938-c921e69fb92b)
