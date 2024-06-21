@@ -9,11 +9,11 @@ import base64
 result = None
 
 with open(
-        r"C:/Users/user/Project8/House_Price_Predictor_Streamlit_web_ap/bangalore_home_prices_model.pickle", 
+        "bangalore_home_prices_model.pickle",
         'rb') as f:
     __model = pickle.load(f)
 
-with open(r"C:/Users/user/Project8/House_Price_Predictor_Streamlit_web_ap/Columns.json", 'r') as obj:
+with open("Columns.json", 'r') as obj:
     __data_columns = json.load(obj)["Columns"]
     __area_types = __data_columns[4:8]
     __locations = __data_columns[8:]
@@ -50,10 +50,10 @@ def get_predicted_price(area_type, location, sqft, balcony, bathroom, BHK):
 
 def main():
     global result
-    st.title("Bangalore House Price Predictor")
+    st.title("House Price Predictor")
     html_temp = """
            <div>
-           <h2>House Price Prediction ML app</h2>
+           <h3>Prediction of house price (Bangalore Dataset)</h3>
            </div>
            """
     st.markdown(html_temp, unsafe_allow_html=True)
