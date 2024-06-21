@@ -9,11 +9,11 @@ import base64
 result = None
 
 with open(
-        r"C:\Users\user\Project8\House_Price_Predictor_Streamlit_web_app\bangalore_home_prices_model.pickle", 
+        r"C:/Users/user/Project8/House_Price_Predictor_Streamlit_web_ap/bangalore_home_prices_model.pickle", 
         'rb') as f:
     __model = pickle.load(f)
 
-with open(r"C:\Users\user\Project8\House_Price_Predictor_Streamlit_web_appl\Columns.json", 'r') as obj:
+with open(r"C:/Users/user/Project8/House_Price_Predictor_Streamlit_web_ap/Columns.json", 'r') as obj:
     __data_columns = json.load(obj)["Columns"]
     __area_types = __data_columns[4:8]
     __locations = __data_columns[8:]
